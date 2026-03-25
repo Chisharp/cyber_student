@@ -1,0 +1,4 @@
+# file: C:\Users\Chiom\OneDrive\Documents\Zoom\cyber-students\api\handlers\base.py
+# hypothesis_version: 6.151.9
+
+[204, 400, 405, '*', 'Content-Type', 'Invalid HTTP method.', 'Unknown error.', 'application/json', 'message']

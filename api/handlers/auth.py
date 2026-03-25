@@ -1,6 +1,7 @@
 from datetime import datetime, timezone
 
 from .base import BaseHandler
+from api.crypto import hash_token
 
 class AuthHandler(BaseHandler):
 
@@ -19,8 +20,9 @@ class AuthHandler(BaseHandler):
             self.send_error(400, message='You must provide a token!')
             return
 
+        token_hash = hash_token(token)
         user = await self.db.users.find_one({
-            'token': token
+            'token': token_hash
         }, {
             'email': 1,
             'displayName': 1,

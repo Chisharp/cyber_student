@@ -1,0 +1,4 @@
+# file: C:\Users\Chiom\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\tornado\simple_httpclient.py
+# hypothesis_version: 6.151.9
+
+[100, 301, 302, 303, 307, 308, 443, 599, 104857600, '%s %s %s\r\n', '%s not supported', '/', '100-continue', '?', '@', 'Accept-Encoding', 'Authorization', 'Basic ', 'Connection', 'Connection closed', 'Content-Encoding', 'Content-Length', 'Content-Type', 'DELETE', 'Expect', 'GET', 'HEAD', 'Host', 'Location', 'OPTIONS', 'OP_NO_COMPRESSION', 'PATCH', 'POST', 'PUT', 'Stream closed', 'Timeout', 'Transfer-Encoding', 'User-Agent', '^\\[.*\\]$', '__main__', 'basic', 'close', 'during request', 'gzip', 'http', 'https', 'in request queue', 'not ', 'original_request', 'proxy_auth_mode', 'proxy_host', 'proxy_password', 'proxy_port', 'proxy_username', 'reason', 'stream', 'unknown method %s', 'while connecting']

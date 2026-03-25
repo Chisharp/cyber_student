@@ -1,6 +1,7 @@
 from tornado.escape import json_decode
 
 from .base import BaseHandler
+from api.crypto import hash_passphrase, encrypt_field
 
 class RegistrationHandler(BaseHandler):
 
@@ -38,11 +39,21 @@ class RegistrationHandler(BaseHandler):
             self.send_error(409, message='A user with the given email address already exists!')
             return
 
-        await self.db.users.insert_one({
+        doc = {
             'email': email,
-            'password': password,
+            'password': hash_passphrase(password),
             'displayName': display_name
-        })
+        }
+
+        personal_fields = ['fullName', 'address', 'dateOfBirth', 'phoneNumber', 'disabilities']
+        for field in personal_fields:
+            value = body.get(field)
+            if value is not None:
+                ciphertext_b64, iv_b64 = encrypt_field(value)
+                doc[field] = ciphertext_b64
+                doc[f'{field}_iv'] = iv_b64
+
+        await self.db.users.insert_one(doc)
 
         self.set_status(200)
         self.response['email'] = email

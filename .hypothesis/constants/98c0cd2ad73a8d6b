@@ -1,0 +1,4 @@
+# file: C:\Users\Chiom\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\tornado\platform\asyncio.py
+# hypothesis_version: 6.151.9
+
+[b'a', 1024, 'ProactorEventLoop', 'SelectorThread', 'Tornado selector', 'Unpack[_Ts]', 'WSAENOTSOCK', '_FileDescriptorLike', '_T', '_Ts', '_real_loop', '_selector', 'add_reader', 'add_writer', 'asyncio.Future[_T]', 'asyncio_loop', 'close', 'fd %s added twice', 'remove_reader', 'remove_writer', 'win32']

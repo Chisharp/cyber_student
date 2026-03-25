@@ -1,0 +1,4 @@
+# file: C:\Users\Chiom\OneDrive\Documents\Zoom\cyber-students\api\handlers\registration.py
+# hypothesis_version: 6.151.9
+
+[200, 400, 409, 'address', 'dateOfBirth', 'disabilities', 'displayName', 'email', 'fullName', 'password', 'phoneNumber']

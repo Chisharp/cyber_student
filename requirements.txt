@@ -1,5 +1,7 @@
+bcrypt
 click==8.3.1
 cryptography==46.0.5
+hypothesis
 keyring==25.7.0
 mongomock==4.3.0
 mongomock-motor==0.0.34

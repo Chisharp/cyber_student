@@ -1,0 +1,4 @@
+# file: C:\Users\Chiom\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\mongomock\mongo_client.py
+# hypothesis_version: 6.151.9
+
+[27017, 16777216, '.', '3.12', '4.0', '://', 'Mock', 'bits', 'database', 'debug', 'localhost', 'maxBsonObjectSize', 'nodelist', 'ok', 'read_preference', 'sysInfo', 'version', 'versionArray']

@@ -1,0 +1,4 @@
+# file: C:\Users\Chiom\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\tornado\httpclient.py
+# hypothesis_version: 6.151.9
+
+[20.0, 200, 300, '%s=%r', ',', 'AsyncHTTPClient', 'Future[HTTPResponse]', 'Future[None]', 'GET', 'HTTP %d: %s', 'HTTPRequest', 'HTTPResponse', 'If-Modified-Since', 'Unknown', '__main__', '_async_client_dict_', 'follow_redirects', 'print_body', 'print_headers', 'proxy_host', 'proxy_port', 'validate_cert']

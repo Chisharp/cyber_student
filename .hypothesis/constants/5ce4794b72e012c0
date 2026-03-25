@@ -1,0 +1,4 @@
+# file: C:\Users\Chiom\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\motor\core.py
+# hypothesis_version: 6.151.9
+
+[120, '$cmd.aggregate', '.', 'Motor', 'MotorChangeStream', 'MotorClient', 'MotorClientSession', 'MotorCollection', 'MotorCommandCursor', 'MotorCursor', 'MotorDatabase', 'MotorRawBatchCursor', '_', '_delegate', 'aggregate', 'batchSize', 'batch_size', 'close', 'codec_options', 'collation', 'comment', 'connect', 'delegate', 'driver', 'full_document', 'io_loop', 'list_indexes', 'list_search_indexes', 'max_await_time_ms', 'open_sync', 'pipeline', 'read_preference', 'resume_after', 'session', 'show_expanded_events', 'start_after', 'tailable_cursor', 'value']

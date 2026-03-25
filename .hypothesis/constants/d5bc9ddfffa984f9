@@ -1,0 +1,4 @@
+# file: C:\Users\Chiom\OneDrive\Documents\Zoom\cyber-students\api\handlers\login.py
+# hypothesis_version: 6.151.9
+
+[200, 400, 403, '$set', 'email', 'expiresIn', 'password', 'token']

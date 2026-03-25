@@ -1,0 +1,4 @@
+# file: C:\Users\Chiom\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\gridfs\synchronous\grid_file.py
+# hypothesis_version: 6.151.9
+
+[11000, 11001, 12582, '$gte', '$in', '$set', 'Name of this file.', '_buffer', '_buffered_docs', '_buffered_docs_size', '_chunk_number', '_chunks', '_closed', '_coll', '_ensured_index', '_file', '_id', '_position', '_session', 'aliases', 'chunkSize', 'chunk_size', 'code', 'contentType', 'content_type', 'data', 'filename', 'fileno', 'files_id', 'fs', 'key', 'length', 'md5', 'metadata', 'n', 'no chunk #%d', 'read', 'truncate', 'truncated chunk', 'uploadDate', 'write', 'writeConcernError', 'writeConcernErrors', 'writeErrors', 'writelines']

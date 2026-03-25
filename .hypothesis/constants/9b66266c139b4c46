@@ -1,0 +1,4 @@
+# file: C:\Users\Chiom\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\keyring\__init__.py
+# hypothesis_version: 6.151.9
+
+['delete_password', 'get_credential', 'get_keyring', 'get_password', 'set_keyring', 'set_password']

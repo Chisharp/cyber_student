@@ -1,0 +1,4 @@
+# file: C:\Users\Chiom\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\mongomock\codec_options.py
+# hypothesis_version: 6.151.9
+
+['3.8', '4.0', '4.3', 'CodecOptions', 'datetime_conversion', 'document_class', 'strict', 'type_registry', 'tz_aware', 'tzinfo', 'uuid_representation']

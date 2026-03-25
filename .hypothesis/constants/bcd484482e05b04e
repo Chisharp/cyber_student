@@ -1,0 +1,4 @@
+# file: C:\Users\Chiom\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\mongomock\results.py
+# hypothesis_version: 6.151.9
+
+['__acknowledged', '__bulk_api_result', '__inserted_id', '__inserted_ids', '__raw_result', '_id', 'index', 'n', 'nInserted', 'nMatched', 'nModified', 'nRemoved', 'nUpserted', 'upserted']
