@@ -1,6 +1,7 @@
 import logging
 import unittest
 
+from test.crypto import TestGetEncryptionKey, TestHashPassphrase, TestHashToken, TestEncryptDecryptField
 from test.login import LoginHandlerTest
 from test.logout import LogoutHandlerTest
 from test.property_tests import PropertyTests

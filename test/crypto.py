@@ -31,6 +31,7 @@ class TestHashPassphrase(unittest.TestCase):
 
     def test_hash_passphrase_work_factor(self):
         result = hash_passphrase('testPassword')
+        # bcrypt output starts with $2b$12$ when rounds=12
         self.assertTrue(result.startswith('$2b$12$'))
 
     def test_verify_passphrase_correct(self):
@@ -52,9 +53,6 @@ class TestHashToken(unittest.TestCase):
 
 
 class TestEncryptDecryptField(unittest.TestCase):
-
-    def _mock_key(self):
-        return mock.patch('api.crypto.get_encryption_key', return_value=os.urandom(32))
 
     def test_encrypt_decrypt_roundtrip(self):
         fixed_key = os.urandom(32)
