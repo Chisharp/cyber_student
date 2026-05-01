@@ -1,4 +1,0 @@
-# file: C:\Users\Chiom\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\pymongo\synchronous\pool.py
-# hypothesis_version: 6.151.9
-
-[0.0, 1000, 10107, ' CLOSED', '.', 'DEFAULT', 'admin', 'client', 'code', 'compression', 'errmsg', 'helloOk', 'inf', 'loadBalanced', 'maxAwaitTimeMS', 'maxTimeMS', 'not primary', 'ok', 'saslSupportedMechs', 'topologyVersion']

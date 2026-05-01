@@ -1,4 +1,0 @@
-# file: C:\Users\Chiom\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\pymongo\uri_parser.py
-# hypothesis_version: 6.151.9
-
-['__main__', 'parse_host', 'parse_uri', 'parse_userinfo', 'split_hosts', 'split_options', 'validate_options']

@@ -1,4 +1,0 @@
-# file: C:\Users\Chiom\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\mongomock\__init__.py
-# hypothesis_version: 6.151.9
-
-['5.0.5', 'Collection', 'CollectionInvalid', 'Database', 'DuplicateKeyError', 'InvalidName', 'MONGODB', 'MongoClient', 'ObjectId', 'OperationFailure', 'SERVER_VERSION', 'WriteConcern', '__version__', 'ignore_feature', 'patch', 'warn_on_feature']

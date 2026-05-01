@@ -1,4 +1,0 @@
-# file: C:\Users\Chiom\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\pymongo\synchronous\auth.py
-# hypothesis_version: 6.151.9
-
-[b',', b'Client Key', b'Server Key', b'c=biws,r=', b'i', b'p=', b'r', b's', b'v', 4096, '$external', '.', ':', '@', 'DEFAULT', 'GSSAPI', 'MONGODB-AWS', 'MONGODB-OIDC', 'MONGODB-X509', 'PLAIN', 'SCRAM-SHA-1', 'SCRAM-SHA-256', 'authenticate', 'autoAuthorize', 'conversationId', 'db', 'done', 'forward', 'mechanism', 'none', 'payload', 'saslContinue', 'saslStart', 'saslSupportedMechs', 'sha1', 'sha256', 'user', 'utf-8']

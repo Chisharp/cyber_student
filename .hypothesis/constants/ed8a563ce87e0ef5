@@ -1,4 +1,0 @@
-# file: C:\Users\Chiom\OneDrive\Documents\Zoom\cyber-students\api\handlers\auth.py
-# hypothesis_version: 6.151.9
-
-[400, 403, 'OPTIONS', 'X-Token', 'displayName', 'display_name', 'email', 'expiresIn', 'token']

@@ -1,4 +1,0 @@
-# file: C:\Users\Chiom\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\tornado\netutil.py
-# hypothesis_version: 6.151.9
-
-[128, 384, '\x00', '::1', 'AF_UNIX', 'IPPROTO_IPV6', 'OP_NO_COMPRESSION', 'Resolver', 'SO_REUSEPORT', 'ca_certs', 'cert_reqs', 'certfile', 'ciphers', 'darwin', 'foo', 'idna', 'keyfile', 'latin1', 'localhost', 'nt', 'ssl_version']

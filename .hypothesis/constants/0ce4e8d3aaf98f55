@@ -1,4 +1,0 @@
-# file: C:\Users\Chiom\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\mongomock\filtering.py
-# hypothesis_version: 6.151.9
-
-['$', '$all', '$and', '$bitsAllClear', '$bitsAllSet', '$bitsAnyClear', '$bitsAnySet', '$comment', '$elemMatch', '$eq', '$exists', '$expr', '$geoIntersects', '$geoWithin', '$gt', '$gte', '$in', '$in needs an array', '$jsonSchema', '$lt', '$lte', '$maxDistance', '$minDistance', '$ne', '$near', '$nearSphere', '$nin', '$nor', '$not', '$options', '$or', '$regex', '$size', '$text', '$type', '$where', '.', 'DBRef', 'array', 'as_doc', 'binData', 'bool', 'date', 'dbPointer', 'decimal', 'double', 'field', 'imxs', 'int', 'javascript', 'javascriptWithScope', 'long', 'maxKey', 'minKey', 'null', 'number', 'object', 'objectId', 'regex', 'string', 'symbol', 'timestamp', 'undefined', 'unknown operator: ', 'unknown operator: %s']
