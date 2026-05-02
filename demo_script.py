@@ -1,10 +1,8 @@
 <<<<<<< HEAD
 """
-Live demo for Slide 3 & Slide 4 of the GDPR screencast.
 
 
-Usage:
-    python demo_slide3_slide4.py
+
 """
 import urllib.request
 import urllib.error
@@ -87,7 +85,7 @@ def demo_slide3():
         "email":        "chioma.okoye@test.com",
         "password":     "SecurePass123",
         "displayName":  "Demo Student",
-        "fullName":     "Jane Smith",
+        "fullName":     "chioma okoye",
         "address":      "42 GDPR Street, Dublin",
         "dateOfBirth":  "1998-05-15",
         "phoneNumber":  "085-1234567",
@@ -397,7 +395,7 @@ def demo_slide3():
         "email":        "chioma.okoye@test.com",
         "password":     "SecurePass123",
         "displayName":  "Demo Student",
-        "fullName":     "Jane Smith",
+        "fullName":     "chioma okoye",
         "address":      "42 GDPR Street, Dublin",
         "dateOfBirth":  "1998-05-15",
         "phoneNumber":  "085-1234567",
