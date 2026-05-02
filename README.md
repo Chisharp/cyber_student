@@ -7,8 +7,8 @@ explain how to setup the project on your local machine.
 
 ## Get the Sample Code
 
-Create a [GitHub](https://github.com) account.  Download and install
-[git](https://git-scm.com).  We will use `git` to manage our source
+Create a [GitHub](https://github.com) account.  Downloaded and installed
+[git](https://git-scm.com).   used `git` to manage our source
 code.
 
 Verify that `git` is installed correctly:
@@ -41,9 +41,7 @@ Activate the virtual environment:
 .\project-venv\Scripts\activate
 ```
 
-```sh
-# ... on macOS/*nix:
-source project-venv/bin/activate
+
 ```
 
 Install the required packages:
@@ -53,11 +51,11 @@ cd cyber-students
 pip install -r requirements.txt
 ```
 
-Download, install and start [MongoDB Community
-Edition](https://www.mongodb.com/docs/manual/installation).  We will
+Downloaded, installed and start [MongoDB Community
+Edition](https://www.mongodb.com/docs/manual/installation).  i will
 use MongoDB as our database.
 
-Download and install [MongoDB
+Downloaded and installed [MongoDB
 Shell](https://www.mongodb.com/try/download/shell).  Open a MongoDB
 shell:
 
@@ -72,17 +70,10 @@ use cyberStudents;
 db.createCollection('users');
 ```
 
-This database will store our data.  The tests use an in-memory mock
+This database will store PII / PHI data.  The tests use an in-memory mock
 database, so they do not require a running MongoDB server.
 
-Download and install [curl](https://curl.se).  `curl` is also shipped
-by Microsoft as part of Windows 10 and 11.  `curl` is a command-line
-tool for interacting with web servers (and other protocols).
 
-Verify that `curl` is installed correctly:
-
-```sh
-curl --version
 ```
 
 ## Start the Project
@@ -103,21 +94,21 @@ python run_server.py
 The server is available on port 4000 at
 http://localhost:4000/students/api.  However, it is not possible to
 use all of the functionality offered by the server directly using a
-browser.  Instead we will use `curl` to interact with the server.
+browser.  Instead i will use `curl` to interact with the server.
 
 ### Registration
 
 To register a new user:
 
 ```sh
-curl -X POST http://localhost:4000/students/api/registration -d "{\"email\": \"foo@bar.com\", \"password\": \"pass\", \"displayName\": \"Foo Bar\"}"
+curl -X POST http://localhost:4000/students/api/registration -d "{\"email\": \"chiom.okoye@test.com\", \"password\": \"pass\", \"displayName\": \"chioma okoye\"}"
 ```
 
 If the registration is successful, it will confirm the email address
 and the display name of the newly registered user:
 
 ```
-{"email": "foo@bar.com", "displayName": "Foo Bar"}
+{"email": "chioma.okoye@test.com", "displayName": "chioma okoye"}
 ```
 
 If the registration is unsuccessful, for example, if you try to
@@ -132,7 +123,7 @@ register the same user twice, it will return an error message:
 To login:
 
 ```sh
-curl -X POST http://localhost:4000/students/api/login -d "{\"email\": \"foo@bar.com\", \"password\": \"pass\"}"
+curl -X POST http://localhost:4000/students/api/login -d "{\"email\": \"chioma.okoye@test.com\", \"password\": \"pass\"}"
 ```
 
 If the login is successful, it will return a token and expiration
@@ -168,7 +159,7 @@ If successful, it will return the email address and the display name
 for the user:
 
 ```
-{"email": "foo@bar.com", "displayName": "Foo Bar"}
+{"email": "chioma.okoye@test.com", "displayName": "chioma okoye"}
 ```
 
 ### Logging Out
@@ -206,7 +197,7 @@ produces output similar to the following:
 
 ```
 There are 1 registered users:
-{'_id': ObjectId('6242d9c34536b3a16b49aa6b'), 'email': 'foo@bar.com', 'password': 'pass', 'displayName': 'Foo Bar'}
+{'_id': ObjectId('6242d9c34536b3a16b49aa6b'), 'email': 'chioma okoye@test.com', 'password': 'pass', 'displayName': 'chioma okoye'}
 ```
 
 As you can see, all of the information is stored in the clear; there
